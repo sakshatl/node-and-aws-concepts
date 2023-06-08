@@ -1,5 +1,6 @@
 {
   "name": "aws-sandbox",
+  "type": "module",
   "version": "1.0.0",
   "description": "Getting started with AWS and Node",
   "main": "index.js",
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-iam": "^3.345.0",
+    "@aws-sdk/client-s3": "^3.348.0",
     "aws-sdk": "^2.1391.0"
   }
 }
