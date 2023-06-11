@@ -51,4 +51,4 @@ await createConnection();
 // await createTable();
 
 // === END THE CONNECTION TO DATABASE ===
-// await client.end();
+await client.end();
