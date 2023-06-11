@@ -1,7 +1,7 @@
 {
   "name": "aws-sandbox",
-  "type": "module",
   "version": "1.0.0",
+  "type": "module",
   "description": "Getting started with AWS and Node",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,8 @@
   "dependencies": {
     "@aws-sdk/client-iam": "^3.345.0",
     "@aws-sdk/client-s3": "^3.348.0",
-    "aws-sdk": "^2.1391.0"
+    "aws-sdk": "^2.1391.0",
+    "dotenv": "^16.1.4",
+    "pg": "^8.11.0"
   }
 }
